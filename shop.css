@@ -1,0 +1,177 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    background-color:rgb(245,235,178);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+navbar {
+    position: fixed;
+    top: 0%;
+    height: 10vh;
+    width: 100vw;
+    background-color:rgb(224,134,20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.Total {
+    position: fixed;
+    bottom: 0%;
+    height: 20vh;
+    background-color:rgb(197,38,1);
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.title{
+    
+    color: rgb(245,235,178);
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.item{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    box-shadow: 0px 0px 12px 6px black;
+    height: 20vh;
+}
+.item:hover {
+    box-shadow: 0px 0px 12px 6px rgb(245,235,178);
+ }
+
+
+.vitrine {
+    position: relative;
+    top:10vh;
+    width: 80vw;
+    
+    height: fit-content;
+    background-color:rgb(52,36,42);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.column {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.headitem {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+}
+.itemtitle {
+    font-family:'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(245,235,178);
+    flex: 1;
+}
+.image1 {
+    background-image: url(./grocery.jpg);
+    height:100%;
+    flex: 4;
+    }
+.image2 {
+    background-image: url(./Clothes.jpg);
+    background-position: center;
+    height:100%;
+    flex: 4;
+    }
+.image3 {
+    background-image: url(./bags.jpg);
+    background-position: center;
+    height:100%;
+    flex: 4;
+     }
+
+.image {
+ height: 100%;
+ width: 50%;
+ background-color: beige;
+ border-radius: 5px; 
+    }
+.items {
+    display: flex;
+    justify-content: space-evenly;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:30px;
+    width: 100%;
+    font-family:'Lato', sans-serif; 
+    color: rgb(245,235,178);
+    font-size: 20px;
+    font-weight: 500;
+}
+.bottom {
+    height: 20vh;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 180px;
+    font-family:'Lato', sans-serif; 
+    color: rgb(245,235,178);
+}
+.name{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: left;
+}
+.price {
+    font-size: 20px;
+    font-weight: 300;
+}
+.quant{
+    width: 20px;
+    height:80%;
+    font-weight: 500;
+}
+.check {
+    margin: 0px 10px 0px 10px ;
+    border-radius: 5px;
+    border: unset rgb(192, 85, 85);
+    width: 50px; 
+    height:65%; 
+    font-size: 30px;
+}
+
+ .icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    filter: invert(99%) sepia(0%) ;
+}
+.clicked{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    filter: invert(18%) sepia(99%) saturate(2760%) hue-rotate(10deg) brightness(91%) contrast(106%)
+}
